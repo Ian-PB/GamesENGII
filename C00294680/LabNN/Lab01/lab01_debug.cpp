@@ -32,7 +32,7 @@ public:
     }
 
     double divide(int a, int b) {
-        return a / b;   //<BUG_4>
+        return (double)a / (double)b;   //<BUG_4 There would be truncation since they were ints and not floats / doubles>
     }
 };
 
