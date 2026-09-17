@@ -8,6 +8,7 @@
 // Run  :  ./lab02
 
 #include <iostream>
+#include <limits>
 #include <string>
 
 
@@ -43,5 +44,26 @@ static void runTests() {
 int main() {
     runTests();
     std::cout << "\nSummary: " << passes << " passed, " << fails << " failed.\n";
+
+    // User input
+    int input = 0;
+    bool numberInputted = true;
+
+    while (numberInputted)
+    {
+        std::cout << "\nInput a number: ";
+        if (std::cin >> input)
+        {    
+            std::cout << input << " gives the result: " << classify(input);
+        }
+        else
+        {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Letter was inputed, stopping program.";
+            numberInputted = false;
+        }
+    }
+
     return fails == 0 ? 0 : 1;
 }
