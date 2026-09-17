@@ -36,9 +36,8 @@ static void checkEqual(int actual, int expected, const std::string& label) {
 
 static void runTests() {
     checkEqual(classify(-5), -1, "negative branch");
-    checkEqual(classify(0), 0, "negative branch");
-    // TODO(3): call classify() with a positive value and check the return equals 1
-    // For instance : checkEqual(classify(X), X, "negative branch");
+    checkEqual(classify(0), 0, "zero branch");
+    checkEqual(classify(5), 1, "positive branch");
 }
 
 int main() {
