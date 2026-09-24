@@ -1,12 +1,11 @@
 // Lab 03 - first GoogleTest project
-// Name  :
-// StudentID:
+// Name  : Ian Perez Bunuel
+// StudentID: C00294680
 
 #include <gtest/gtest.h>
 #include "calculator.hpp"
 
 // First test case solved for the class
-
 TEST(Calculator, Add_ReturnsSumForPositive) {
     Calculator c;
     EXPECT_EQ(c.add(2, 3), 5); // using a simple GoogleTest style assert to call out functions.
