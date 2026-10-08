@@ -1,6 +1,6 @@
 // Lab 05 - Testing a Three State Machine
-// Name  :
-// StudentID:
+// Name  : Ian Perez Bunuel
+// StudentID: C0029480
 
 #include <gtest/gtest.h>
 #include "machine.hpp"
@@ -11,7 +11,14 @@ TEST(Machine, VisitsAllThreeStates) {
     Machine m;
     EXPECT_EQ(m.current(), State::OFF);
     // TODO: drive the machine to ON, then to PAUSED, checking with EXPECT_EQ after each step.
-    FAIL() << "not implemented";
+
+    // Transition to ON and check
+    m.step(Event::powerOn);
+    EXPECT_EQ(m.current(), State::ON);
+
+    // Transition to PAUSED and check
+    m.step(Event::pause);
+    EXPECT_EQ(m.current(), State::PAUSED);
 }
 
 // -------- Transition coverage: one test per transition --------
