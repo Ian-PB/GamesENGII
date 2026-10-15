@@ -1,0 +1,11 @@
+# ninja log v7
+12	164	8137744266611534	CMakeFiles/discount.dir/src/discount.cpp.obj	f50c5564ce6fea50
+165	359	8137744268123395	libdiscount.a	4f45c4e7f45e6a56
+19	741	8137744266681525	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	e29006ce0e71e2cc
+34	868	8137744266837353	CMakeFiles/lab06_tests.dir/test/lab06_tests.cpp.obj	3d62cd8538098bdd
+3	6498	8137744266527013	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	205e094950eb847f
+6500	6764	8137744331494775	lib/libgtest.a	2dcec27ea8478b8d
+6765	6933	8137744334137505	lib/libgtest_main.a	7acfdd8e9515dae0
+6934	7610	8137744342473709	lab06_tests.exe	2c625adb8668022f
+6934	7610	8137744342473709	lab06_tests_e3b0c442_tests.cmake	2c625adb8668022f
+6934	7610	8137744342473709	C:/Users/gameuser/Desktop/GamesEngg/GamesENGII/C00294680/LabNN/Lab06/build-cov/lab06_tests_e3b0c442_tests.cmake	2c625adb8668022f

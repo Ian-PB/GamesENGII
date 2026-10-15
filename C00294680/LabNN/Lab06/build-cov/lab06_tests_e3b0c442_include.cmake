@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/gameuser/Desktop/GamesEngg/GamesENGII/C00294680/LabNN/Lab06/build-cov/lab06_tests_e3b0c442_tests.cmake")
+  include("C:/Users/gameuser/Desktop/GamesEngg/GamesENGII/C00294680/LabNN/Lab06/build-cov/lab06_tests_e3b0c442_tests.cmake")
+else()
+  add_test(lab06_tests_NOT_BUILT lab06_tests_NOT_BUILT)
+endif()
