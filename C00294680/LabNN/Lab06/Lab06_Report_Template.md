@@ -19,8 +19,8 @@ gcov -b -r build-cov/CMakeFiles/discount.dir/src/discount.cpp.gcno > coverage_su
 
 ## Coverage criteria
 
-Predicate-coverage rows used:  ____ , ____
-Clause-coverage rows used:  ____
+Predicate-coverage rows used:  2 , 2
+Clause-coverage rows used:  5
 Tests reported / passed:  4 / 4
 
 ## Coverage summary (paste the tail of coverage_summary.txt)
