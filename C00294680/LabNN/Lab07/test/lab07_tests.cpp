@@ -45,8 +45,10 @@ INSTANTIATE_TEST_SUITE_P(MajorsGD, CACC, ::testing::Values(
     Row{ {true,  false, true,  true, true}, true,  "G=T det && D=T det" },
     // TODO: G=F det with same minors
     Row{ {true,  false, true,  false, true}, false,  "G=F det" },
+    
     // TODO: D=T det with minors A=T,B=F,C=T,G=T
     // Repeated: Row{ {true,  false, true,  true, true}, true,  "D=T det" },
+
     // TODO: D=F det with same minors
     Row{ {true,  false, true,  true, false}, false,  "D=F det" }
 ));
